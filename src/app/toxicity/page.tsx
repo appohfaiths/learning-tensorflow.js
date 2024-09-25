@@ -1,6 +1,7 @@
 "use client";
 import {useEffect, useState} from "react";
 
+import "@tensorflow/tfjs"
 import * as toxicity from "@tensorflow-models/toxicity";
 
 export default function Page(){
